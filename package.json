@@ -20,7 +20,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "nuxt-storage": "^1.2.2",
+   
     "pinia": "^2.1.7"
   }
 }

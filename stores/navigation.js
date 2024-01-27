@@ -1,14 +1,14 @@
-import { getData, setData } from 'nuxt-storage/local-storage';
+
 export const useNavigationStore = defineStore('navigation', () => {
   const test = ref('test');
 
   const theme = ref('light')
 
-  const  getTheme =async()=>{
-     theme.value = await getData('theme')==null ? 'light' :getData('theme')
+  const  getTheme =()=>{
+     theme.value = 'light'
   } 
 
-  console.log('getData',getData('theme'))
+
   console.log('theme',theme.value)
   const toggleDarkMode = ()=>{
     if(theme.value =='dark'){
@@ -17,8 +17,7 @@ export const useNavigationStore = defineStore('navigation', () => {
       theme.value = 'dark'
     }
 
-   setData('theme',theme.value)
-   
+ 
   }
 
 
