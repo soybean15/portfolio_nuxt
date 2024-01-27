@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@pinia/nuxt": "^0.5.1",
     "autoprefixer": "^10.4.17",
     "daisyui": "^4.6.0",
     "nuxt": "^3.9.3",
@@ -19,7 +20,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.1",
+    "nuxt-storage": "^1.2.2",
     "pinia": "^2.1.7"
   }
 }

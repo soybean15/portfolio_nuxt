@@ -1,6 +1,7 @@
 <template>
 
-<div class="bg-gradient-to-r from-emerald-950  to-teal-700">
+<div class=" " :data-theme="theme" >
+ 
   <NuxtLayout>
     <NuxtPage/>
   </NuxtLayout>
@@ -8,3 +9,22 @@
 
 
 </template>
+<script>
+export default {
+  setup() {
+    const navStore = useNavigationStore()
+
+
+
+    navStore.getTheme()
+    const {theme} = storeToRefs(navStore)
+
+    console.log('from app',theme.value)
+
+    return {
+   
+      theme
+    }
+  },
+}
+</script>

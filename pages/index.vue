@@ -1,11 +1,15 @@
 <template>
-  <div class="h-screen flex flex-col justify-center">
-    <Hero/>
+  <div class="h-screen ">
+
+  <Hero/>
+    
   </div>
  
 </template>
 
-<script>
+<script setup>
+
+const nav = useNavigationStore()
 
 </script>
 
