@@ -1,51 +1,63 @@
 <template>
-    <div class="">
-
-        <ul class="menu menu-lg menu-vertical md:menu-horizontal w-full text-base-content  md:px-10 ">
-            <li class="order-1 ">
-                <button class="btn btn-ghost text-xl">daisyUI</button>
-            </li>
-            <li class="hidden md:block order-2  md:m-auto">
-                <ul class="flex">
-
-                    <li class=" hidden md:block w-full md:w-fit "><a class="flex justify-center ">Home</a></li>
-                    <li class=" hidden md:block w-full md:w-fit"><a class="flex justify-center">About</a></li>
-                    <li class=" hidden md:block w-full md:w-fit"><a class="flex justify-center">Projects</a></li>
-                </ul>
-
-            </li>
-
-            <li class="order-3  md:flex  ">
+    <nav class=" dark:bg-gray-900  w-full z-20 top-0 start-0  border-gray-200 dark:border-gray-600 text-content-base">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          
+                <span class="self-center text-2xl font-semibold whitespace-nowrap ">Flowbite</span>
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <more-option :nav="nav"/>
-            </li>
-
-
-            <li class="order-2  flex md:hidden ">
-                <details class="dropdown ">
-                    <summary class="mx-1 w-full  btn btn-ghost"></summary>
-                    <ul class="p-2 shadow menu dropdown-content   z-[1] rounded-box bg-transparent">
-                        <li class=" w-full md:w-fit order-2"><a class="flex justify-center ">Home</a></li>
-                        <li class="  w-full md:w-fit order-3"><a class="flex justify-center">About</a></li>
-                        <li class=" w-full md:w-fit order-4"><a class="flex justify-center">Projects</a></li>
-                    </ul>
-                </details>
-            </li>
-
-        </ul>
-
-    </div>
+                <button @click="showSide()" data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden  focus:outline-none focus:ring-2  dark:text-gray-400  "
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div  :class="{'hidden' : !side}" class="items-center justify-between  w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex  flex-col p-4 md:p-0 mt-4 font-medium  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3  rounded md:bg-transparent md:p-0 "
+                            >Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3  rounded  md:hover:bg-transparent  md:p-0">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3  rounded  md:hover:bg-transparent  md:p-0  ">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3  rounded  md:hover:bg-transparent  md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </template>
 <script>
 import MoreOption from './MoreOption.vue'
 
 
 export default {
-  components: { MoreOption },
+    components: { MoreOption },
     setup() {
         const nav = useNavigationStore()
+        const side = ref(false)
 
         return {
-            nav
+            nav,
+            showSide:()=>{
+                side.value = !side.value
+            },side
         }
 
     },
