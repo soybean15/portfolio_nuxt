@@ -24,7 +24,7 @@
                 
 
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex bg-base-300 rounded-full ">
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex bg-base-300 rounded-full overflow-hidden">
                 <img  class="object-top object-contain hover:object-scale-down " src="~/assets/img/mob.png" alt="mockup">
             </div>
         </div>
