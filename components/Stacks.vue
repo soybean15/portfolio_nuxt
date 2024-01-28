@@ -1,10 +1,10 @@
 <template>
-    <ul class="flex">
+    <ul class="flex flex-wrap">
 
         <div v-for="logo in logos" :key="logo">
         <div class="cursor-pointer mx-0.5 tooltip" :href="logo.name" :data-tip="logo.label">
             <a :href="logo.link" target="blank">
-                <img class="w-6 rounded-md shadow-lg" :src="`https://logo.clearbit.com/${logo.name}`" />
+                <img class="w-7 rounded-md shadow-lg" :src="`https://logo.clearbit.com/${logo.name}`" />
             </a>
         </div>
     </div>

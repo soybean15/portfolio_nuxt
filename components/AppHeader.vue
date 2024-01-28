@@ -23,20 +23,20 @@
                     class="flex  flex-col p-4 md:p-0 mt-4 font-medium  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
                     <li>
                         <a href="#"
-                            class="block py-2 px-3  rounded md:bg-transparent md:p-0 "
+                            class="block py-2 px-3   rounded border-y-[0.5px]  md:border-none border-neutral  flex justify-center   md:bg-transparent md:p-0 "
                             >Home</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3  rounded  md:hover:bg-transparent  md:p-0">About</a>
+                            class="block py-2 px-3  rounded border-y-[0.5px]  md:border-none border-neutral  flex justify-center md:hover:bg-transparent  md:p-0">About</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3  rounded  md:hover:bg-transparent  md:p-0  ">Projects</a>
+                            class="block py-2 px-3  rounded border-y-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0  ">Projects</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3  rounded  md:hover:bg-transparent  md:p-0">Contact</a>
+                            class="block py-2 px-3  rounded border-y-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0">Contact</a>
                     </li>
                 </ul>
             </div>
