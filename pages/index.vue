@@ -10,6 +10,7 @@
      
     }"/>
 
+
 <div class="bg-base-200 "  v-motion="{
       initial:initial,
       visibleOnce: visibleOnce ,

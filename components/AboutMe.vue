@@ -1,5 +1,5 @@
 <template>
-    <div class=" grid md:grid-cols-2  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0   ">
+    <div id="about" class=" grid md:grid-cols-2  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0   ">
 
         <div class="flex items-center">
             <h2
