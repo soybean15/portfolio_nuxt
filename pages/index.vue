@@ -1,7 +1,8 @@
 <template>
-  <div class="h-screen ">
+  <div class="h-screen flex flex-col ">
 
   <Hero/>
+
     
   </div>
  
