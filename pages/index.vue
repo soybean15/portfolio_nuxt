@@ -2,6 +2,7 @@
   <div class=" flex flex-col   ">
 
   <Hero 
+ 
   v-motion="{
       initial:initial,
       visibleOnce: visibleOnce ,
@@ -11,7 +12,7 @@
     }"/>
 
 
-<div class="bg-base-200 "  v-motion="{
+<div id="about" class="bg-base-200 "  v-motion="{
       initial:initial,
       visibleOnce: visibleOnce ,
       delay:200

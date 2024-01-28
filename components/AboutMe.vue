@@ -1,10 +1,15 @@
 <template>
-    <div id="about" class=" grid md:grid-cols-2  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0   ">
+    <div  class=" grid md:grid-cols-2  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0   ">
 
-        <div class="flex items-center">
+        <div class="flex flex-col items-center justify-center p-10">
             <h2
                 class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
                 About Me</h2>
+
+
+                <div class="md:hidden lg:mt-0 lg:col-span-5 bg-base-100 rounded-full overflow-hidden">
+                <img  class="object-top object-contain hover:object-scale-down " src="~/assets/img/mob.png" alt="mockup">
+            </div>
         </div>
 
 
