@@ -24,15 +24,15 @@
                   
                     <li>
                         <NuxtLink :to="{hash:'#about'}"
-                            class="block py-2 px-3  rounded border-y-[0.5px]  md:border-none border-neutral  flex justify-center md:hover:bg-transparent  md:p-0">About</NuxtLink>
+                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral  flex justify-center md:hover:bg-transparent  md:p-0">About Me</NuxtLink>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3  rounded border-y-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0  ">Projects</a>
+                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0  ">Projects</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3  rounded border-y-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0">Contact</a>
+                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0">Contact</a>
                     </li>
                 </ul>
             </div>
