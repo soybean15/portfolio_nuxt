@@ -1,0 +1,56 @@
+<template>
+    <div class=" grid md:grid-cols-2  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0   ">
+
+        <div class="flex items-center">
+            <h2
+                class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
+                About Me</h2>
+        </div>
+
+
+
+        <div class="flex flex-col  space-y-5" >
+            <div class="space-y-3 border-b-[1px] border-b-base-300 py-3 pb-5" v-for="me in myInfo" :key="me.title">
+                <div class="text-xl  md:text-2xl font-bold text-base-content">{{me.title}}</div>
+                <div class="text-gray-500 md:text-xl flex space-x-3" v-for="item in me.content" :key="item" >
+                    <img class="w-5" src="~/assets/icon/right-arrow.svg"/>
+                  <span> {{item}}</span> 
+
+                </div>
+
+
+            </div>
+
+    
+        </div>
+    </div>
+</template>
+
+<script>
+
+
+
+const myInfo =[
+    {title: 'Full Name', content:['Marlon Padilla'] },
+    {title: 'Academic Background', content:['Currently Studying at Nueva Ecija University of Science and Technology '] },
+    {title: 'Professional Background', content:[
+        'Currently a student pursuing Bachelor of Science in Information Technology with a focus on Web System Technology.',
+        'Actively engaged in coursework related to Web Development.',
+        'Currently interning at Gleent Inc. as a Laravel Developer.'
+    ] },
+    {title: 'Current Address', content:['Somewhere in Nueva Ecija'] },
+]
+
+export default {
+
+    setup(){
+
+        return{
+            myInfo
+        }
+    }
+
+}
+</script>
+
+<style></style>
