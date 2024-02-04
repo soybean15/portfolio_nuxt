@@ -27,8 +27,9 @@
                             class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral  flex justify-center md:hover:bg-transparent  md:p-0">About Me</NuxtLink>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0  ">Projects</a>
+
+                           <NuxtLink :to="{hash:'#projects'}"
+                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0  ">Projects</NuxtLink>
                     </li>
                     <li>
                         <a href="#"

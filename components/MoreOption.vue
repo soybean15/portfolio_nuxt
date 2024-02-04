@@ -27,22 +27,25 @@
         </li>
 
         <li>
-           
+            <GithubLogo/>
+<!--            
             <button class="btn btn-ghost" v-if="nav.theme == 'light'">
                 <img class="w-5 h-5" src="~/assets/logo/github-mark.svg" />
             </button>
             <button class="btn btn-ghost" v-else>
                 <img class="w-5 h-5" src="~/assets/logo/github-mark-white.svg" />
-            </button>
+            </button> -->
         </li>
 
     </ul>
 </template>
 <script>
+
+
 export default {
     props: ['nav'],
     setup() {
-
     },
+   
 }
 </script>
