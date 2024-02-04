@@ -28,15 +28,15 @@
             </div>
             <div class="flip-card-back  flex flex-col items-start p-2 md:p-5   bg-base-100">
 
-                <div class="font-semibold text-sm md:text-xl text-base-content text-justify">{{ project.title }}</div>
-                <div class="text-gray-500 text-xs md:text-lg text-justify">{{ project.description }}</div>
+                <div class="font-semibold text-md md:text-xl text-base-content text-justify">{{ project.title }}</div>
+                <div class="text-gray-500 text-sm md:text-lg text-justify">{{ project.description }}</div>
 
 
                 <div class="font-semibold my-1 md:my-3 md:mb-1 text-xs md:text-lg text-base-content">Repositories</div>
 
                 <div class="flex flex-wrap">
                      <div  class="tooltip" :data-tip="repo.label" v-for="repo in project.repository" :key="repo.label">
-                 <github-logo/>
+                 <a :href="repo.link"><github-logo/></a>
                    
                 
                 </div>

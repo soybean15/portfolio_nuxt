@@ -21,7 +21,14 @@
       <AboutMe />
     </div>
 
-    <div id="projects" class="py-5">
+    <div id="projects" class="py-5" v-motion="{
+      initial: initial,
+      visibleOnce: visibleOnce,
+      delay: 200
+
+
+
+    }">
       <Projects/>
     </div>
 
