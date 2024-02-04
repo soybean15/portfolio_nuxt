@@ -2,10 +2,10 @@
 
     <div>
         <button class="btn btn-ghost" v-if="nav.theme == 'light'">
-                <img class="w-5 h-5" src="~/assets/logo/github-mark.svg" />
+                <img class="w-6 h-6" src="~/assets/logo/github-mark.svg" />
             </button>
             <button class="btn btn-ghost" v-else>
-                <img class="w-5 h-5" src="~/assets/logo/github-mark-white.svg" />
+                <img class="w-6 h-6" src="~/assets/logo/github-mark-white.svg" />
             </button>
     </div>
   

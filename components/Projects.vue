@@ -4,7 +4,7 @@
         <div class="flex flex-col   p-10  pl-0">
 
             <h2
-                class="max-w-2xl mb-4 text-3xl font-extrabold  leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
+                class="max-w-2xl mb-4 text-3xl font-extrabold self-center md:self-start leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
                 Projects</h2>
 
 
@@ -100,7 +100,7 @@ const projects = [
     },
     {
         title: "PNHS EMS",
-        description: "PNHS Management System",
+        description: "Manage teachers service credits",
         thumbnail: 'https://user-images.githubusercontent.com/75112014/285397230-6acd45af-f459-4199-877c-2910aedcf880.png',
         type: "desktop",
         stacks: [{ name: "java.com", label: "Java", link: "https://java.com" }],
@@ -114,7 +114,7 @@ const projects = [
     },
     {
         title: "PNHS Voting System",
-        description: "PNHS Voting System",
+        description: "A simple voting web application",
         type: "Web",
         thumbnail: 'https://user-images.githubusercontent.com/75112014/285394615-f6b3ade9-00db-45f4-9b44-3c3b2929be23.png',
         stacks: [
