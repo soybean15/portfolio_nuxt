@@ -1,5 +1,5 @@
 <template>
-    <div class="flip-card aspect-video w-full h-64">
+    <div class="flip-card aspect-video w-full md:h-64">
         <div class="flip-card-inner">
             <div class="flip-card-front relative">
                 <div class="absolute h-full w-full bg-gradient-to-t from-black to-transparent"></div>

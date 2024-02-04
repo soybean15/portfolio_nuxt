@@ -3,22 +3,22 @@
 
         <div class="flex flex-col   p-10  pl-0">
 
-<h2
-    class="max-w-2xl mb-4 text-3xl font-extrabold  leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
-    Projects</h2>
+            <h2
+                class="max-w-2xl mb-4 text-3xl font-extrabold  leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
+                Projects</h2>
 
 
 
-</div>
+        </div>
         <div class="grid md:grid-cols-3 ">
             <div v-for="project in projects" :key="project.title">
 
-                <project :project="project"/>
+                <project :project="project" />
 
             </div>
         </div>
 
-     
+
 
 
     </div>
