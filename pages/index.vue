@@ -21,6 +21,10 @@
       <AboutMe />
     </div>
 
+    <div id="projects" class="py-5">
+      <Projects/>
+    </div>
+
   </div>
 </template>
 
