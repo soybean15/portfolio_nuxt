@@ -11,9 +11,9 @@
 
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 ">
-            <div v-for="project in projects" :key="project.title">
+            <div class="m-0.5" v-for="project in projects" :key="project.title">
 
-                <project :project="project"   v-motion-slide-visible-left/>
+                <project :project="project"  v-motion-fade-visible/>
 
             </div>
         </div>

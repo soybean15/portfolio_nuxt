@@ -12,8 +12,8 @@
 
     <div id="about" class="bg-base-200 " v-motion="{
       initial: initial,
-      visibleOnce: visibleOnce,
-      delay: 200
+      visible: enter,
+      delay: 2000
 
 
 
@@ -21,14 +21,7 @@
       <AboutMe />
     </div>
 
-    <div id="projects" class="py-5" v-motion="{
-      initial: initial,
-      visibleOnce: visibleOnce,
-      delay: 200
-
-
-
-    }">
+    <div id="projects" class="py-5" >
       <Projects/>
     </div>
 
