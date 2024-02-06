@@ -4,9 +4,9 @@
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
                     class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-base-content z-10">
-                    Hello, <span class="text-accent">Soybean15</span> here,  Full Stack Web Developer</h1>
+                    Hello, <span class="text-accent">Soybean15</span> here,  Full Stack Sofware Developer</h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl"> I'm <b
-                        class="text-accent">Marlon Padilla</b>, a web developer specializing in crafting user-friendly web
+                        class="text-accent">Marlon Padilla</b>, a Sofware developer specializing in crafting user-friendly web
                     applications using Vue.js, Livewire and Laravel.</p>
                
                     <Stacks/>
