@@ -3,7 +3,7 @@
         <div class="grid lg:grid-cols-2  md:ml-5 md:ml-10 shadow-lg  p-5 md:p-10 relative rounded-lg  border border-base-200 ">
 
             <div class="bg-primary lg:absolute top-10 -left-10 w-full   lg:w-[50%] rounded-lg shadow-lg aspect-video md:aspect-square ">
-                <img class="object-cover  rounded-lg object-top w-full h-full " :src="project.thumbnail" />
+                <img class="object-cover  rounded-lg object-top w-full h-full " :src="project.thumbnail"   :placeholder="'~/assets/logo/github-mark-white.svg'"/>
             </div>
             <div></div>
 
@@ -47,6 +47,14 @@
 import GithubLogo from './GithubLogo.vue';
 export default {
     props: ['project'],
+    setup(){
+
+        return {
+            setAltImg(event) { 
+    event.target.src = "~/assets/logo/github-mark-white.svg" 
+} 
+        }
+    }
 
 }
 </script>
