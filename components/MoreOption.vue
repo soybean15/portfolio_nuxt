@@ -27,7 +27,7 @@
         </li>
 
         <li>
-            <GithubLogo/>
+            <a href="https://github.com/soybean15" target="blank"><GithubLogo/></a>
 <!--            
             <button class="btn btn-ghost" v-if="nav.theme == 'light'">
                 <img class="w-5 h-5" src="~/assets/logo/github-mark.svg" />

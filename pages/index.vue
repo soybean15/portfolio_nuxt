@@ -1,6 +1,6 @@
 <template>
-  <div class=" flex flex-col   ">
-    <AnimatedText/>
+  <div class=" flex flex-col ">
+  
     <Hero v-motion="{
       initial: initial,
       visibleOnce: visibleOnce,
@@ -29,6 +29,12 @@
       <Projects/>
     </div>
 
+
+
+
+    <div  id="contacts" class="py-5 footer" >
+      <Footer/>
+    </div>
   </div>
 </template>
 

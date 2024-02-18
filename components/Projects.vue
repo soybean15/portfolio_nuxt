@@ -5,16 +5,20 @@
 
             <h2
                 class="max-w-2xl mb-4 text-3xl font-extrabold self-center md:self-start leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
-                <AnimatedText :words="['My Projects','Web','Console','Desktop']"/></h2>
+                Projects</h2>
 
 
 
         </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 ">
-            <div class="m-0.5" v-for="project in projects" :key="project.title">
+        <div class="grid  lg:grid-cols-2 ">
 
-                <project :project="project"  v-motion-fade-visible/>
+            
+            <div class="sm:m-0.5" v-for="project in projects" :key="project.title">
+<!-- 
+                <project :project="project"  v-motion-fade-visible/> -->
 
+
+                <project-card :project="project" v-motion-fade-visible/>
             </div>
         </div>
 
@@ -246,6 +250,28 @@ const projects = [
             },
         ],
     },
+
+    {
+        title: "Sukii",
+        description: "Application for Sari Sari store Management, Development still on going",
+        type: "Web",
+       
+        thumbnail: 'https://private-user-images.githubusercontent.com/75112014/305708305-b3bff555-9722-465c-9170-55bd7382026f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgyNTM2NTQsIm5iZiI6MTcwODI1MzM1NCwicGF0aCI6Ii83NTExMjAxNC8zMDU3MDgzMDUtYjNiZmY1NTUtOTcyMi00NjVjLTkxNzAtNTViZDczODIwMjZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjE4VDEwNDkxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcxOTA0ZWRkZTQ4YTQ5OGQxM2ZmN2FlYTRhYWQyYzhkNGJkMjQ3MjUxYjJiYzFlNDhhMzY4YjgwZDdmZjUwYWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.p6BhaClkqbrKzzaqlCXNN0B62jqndk-Xcs3t6e6Us6A',
+   
+        stacks: [
+            { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
+           
+            { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
+         
+        ],
+        repository: [
+            {
+                label: "Visit",
+                link: "https://saree-five.vercel.app/#/pautang",
+            },
+         
+        ],
+    },
 ];
 export default {
 
@@ -258,4 +284,15 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+
+
+
+
+.grid-move {
+  background-color: #6B7280!important;
+  transform: scale(0.9);
+}
+
+
+</style>

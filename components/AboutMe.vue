@@ -3,8 +3,8 @@
 
         <div class="flex flex-col items-center justify-center p-10">
             <h2
-                class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
-               <AnimatedText :words="['About Me','My Details','My Background']"/></h2>
+                class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-gradient z-10 ">
+               <AnimatedText :words="['About Me','My Background']"/></h2>
 
 
                 <div class="md:hidden lg:mt-0 lg:col-span-5 bg-base-100 rounded-full overflow-hidden">
@@ -14,7 +14,9 @@
 
 
 
-        <div class="flex flex-col  space-y-5" >
+      
+        <div class="flex flex-col  space-y-5" > 
+            
             <div class="space-y-3 border-b-[1px] border-b-accent py-3 pb-5" v-for="me in myInfo" :key="me.title">
                 <div class="text-xl  md:text-2xl font-bold  text-accent">{{me.title}}</div>
                 <div class=" md:text-lg flex space-x-3 fo" v-for="item in me.content" :key="item" >
@@ -58,4 +60,11 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.text-gradient {
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    @apply bg-gradient-to-b from-accent to-success;
+
+}
+</style>

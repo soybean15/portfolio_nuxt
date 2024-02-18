@@ -1,5 +1,5 @@
 <template>
-    <nav class=" w-full z-20 top-0 start-0  border-gray-200 dark:border-gray-600 text-content-base shadow-md ">
+    <nav class=" w-full z-20 top-0 start-0  border-gray-200 dark:border-gray-600 text-content-base shadow-md fixed bg-base-100">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
           
@@ -32,8 +32,8 @@
                             class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0  ">Projects</NuxtLink>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0">Contact</a>
+                        <NuxtLink :to="{hash:'#contacts'}"
+                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral flex justify-center  md:hover:bg-transparent  md:p-0">Contact</NuxtLink>
                     </li>
                 </ul>
             </div>

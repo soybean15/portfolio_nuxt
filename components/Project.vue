@@ -1,32 +1,32 @@
 <template>
-    <div class="flip-card aspect-video w-full md:h-64 cursor-pointer">
+    <div class="flip-card aspect-video w-full md:h-64 cursor-pointer ">
         <div class="flip-card-inner">
-            <div class="flip-card-front relative">
-                <div class="absolute h-full w-full bg-gradient-to-t from-neutral-900 to-transparent"></div>
+            <div class="flip-card-front relative rounded-lg">
+            
                 <div class=" absolute badge badge-accent top-3 left-3 font-bold text-white">{{ project.type }}</div>
-                <div class=" absolute h-16 w-full bottom-0   px-3">
+                <div class=" absolute h-16 w-full bottom-0    px-3">
 
                     <div class="text-white flex font-bold text-lg truncate">{{ project.title }}</div>
                     <div class="flex justify-between items-center">
-                       
+
                         <div class="">
                             <div class="flex  flex-wrap">
-                    <div class="" v-for="logo in project.stacks" :key="logo">
-                        <div class="cursor-pointer mx-0.5 tooltip" :href="logo.name" :data-tip="logo.label">
-                            <a :href="logo.link" target="blank">
-                                <img class="w-5 md:w-7 rounded-md shadow-lg"
-                                    :src="`https://logo.clearbit.com/${logo.name}`" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                                <div class="" v-for="logo in project.stacks" :key="logo">
+                                    <div class="cursor-pointer mx-0.5 tooltip" :href="logo.name" :data-tip="logo.label">
+                                        <a :href="logo.link" target="blank">
+                                            <img class="w-5 md:w-7 rounded-md shadow-lg"
+                                                :src="`https://logo.clearbit.com/${logo.name}`" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-                <img class="object-cover  object-top w-full h-full" :src="project.thumbnail" />
+                <img class="object-cover  rounded-lg object-top w-full h-full" :src="project.thumbnail" />
             </div>
-            <div class="flip-card-back  flex flex-col items-start p-2 md:p-5   bg-base-100">
+            <div class="flip-card-back  flex flex-col items-start p-2 md:p-5   bg-base-100 rounded-lg">
 
                 <div class="font-semibold text-md md:text-xl text-base-content text-justify">{{ project.title }}</div>
                 <div class="text-gray-500 text-sm md:text-lg text-justify">{{ project.description }}</div>
@@ -35,14 +35,14 @@
                 <div class="font-semibold my-1 md:my-3 md:mb-1 text-xs md:text-lg text-base-content">Repositories</div>
 
                 <div class="flex flex-wrap">
-                     <div  class="tooltip" :data-tip="repo.label" v-for="repo in project.repository" :key="repo.label">
-                 <a :href="repo.link"><github-logo/></a>
-                   
-                
+                    <div class="tooltip" :data-tip="repo.label" v-for="repo in project.repository" :key="repo.label">
+                        <a :href="repo.link"><github-logo /></a>
+
+
+                    </div>
                 </div>
-                </div>
-               
-              
+
+
 
 
 
