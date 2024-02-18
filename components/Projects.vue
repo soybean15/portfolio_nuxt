@@ -1,13 +1,11 @@
 <template>
-    <div class=" grid  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0  mt-16 ">
+    <div class=" grid  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0 mt-16 ">
 
-        <div class="flex flex-col   p-10  pl-0">
+        <div class="flex flex-col justify-center py-5  p-10   w-full ">
 
             <h2
                 class="max-w-2xl mb-4 text-3xl font-extrabold self-center md:self-start leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
                 Projects</h2>
-
-
 
         </div>
         <div class="grid  lg:grid-cols-2 ">
