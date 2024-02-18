@@ -4,7 +4,7 @@
         <div class="flex flex-col   p-10 pt-5  pl-0  ">
 
             <h2
-                class="max-w-2xl mb-4 text-3xl font-extrabold self-center md:self-start leading-none md:text-3xl xl:text-5xl text-base-100 z-10 ">
+                class="max-w-2xl mb-4 text-3xl font-extrabold self-center self-start leading-none md:text-3xl xl:text-5xl text-base-100 z-10 ">
                 Let's Connect</h2>
 
             <p class=" text-2xl text-base-300">
@@ -14,7 +14,7 @@
 
             </p>
 
-            <div class="flex space-x-5 mt-5">
+            <div class="flex flex-wrap md:space-x-5 mt-5">
 
                 <a class="cursor-pointer" href="https://github.com/soybean15" target="blank"><button class="btn btn-ghost"><img class="w-8 h-8"
                         src="~/assets/logo/github-mark-white.svg" /></button></a>
