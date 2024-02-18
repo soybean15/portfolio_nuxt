@@ -23,6 +23,10 @@
                     class="flex  flex-col p-4 md:p-0 mt-4 font-medium  rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
                   
                     <li>
+                        <NuxtLink :to="{hash:'#me'}"
+                            class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral  flex justify-center md:hover:bg-transparent  md:p-0">Home</NuxtLink>
+                    </li>
+                    <li>
                         <NuxtLink :to="{hash:'#about'}"
                             class="block py-2 px-3  rounded border-b-[0.5px]  md:border-none border-neutral  flex justify-center md:hover:bg-transparent  md:p-0">About Me</NuxtLink>
                     </li>

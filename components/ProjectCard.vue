@@ -10,7 +10,7 @@
             <div class="flex flex-col  space-y-2 mt-5 lg:mt-0">
                 <div class="font-extrabold text-md sm:text-lg"> {{ project.title }}</div>
                 <div class="  badge badge-accent top-3 left-3 font-bold text-white">{{ project.type }}</div>
-                <div class="text-gray-500 text-sm md:text-lg text-start indent-5 sm:indent-10">{{ project.description }}</div>
+                <div class="text-gray-500 text-sm md:text-md text-start indent-5 sm:indent-10">{{ project.description }}</div>
                 <div class="font-semibold my-1 md:my-3 md:mb-1 text-xs md:text-lg text-base-content">Stacks</div>
                 <div class="flex  flex-wrap">
                     <div class="" v-for="logo in project.stacks" :key="logo">

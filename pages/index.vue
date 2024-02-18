@@ -1,5 +1,5 @@
 <template>
-  <div class=" flex flex-col ">
+  <div id="me" class=" flex flex-col ">
   
     <Hero v-motion="{
       initial: initial,
