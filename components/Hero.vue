@@ -1,12 +1,12 @@
 <template>
-    <section class="mb-20  ">
-        <div class="grid max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mb-24 ">
-            <div class="mr-auto place-self-center lg:col-span-7">
-                <div class="text-xl text-accent py-5">Full Stack Software Developer</div>
+    <section class="mb-20 mt-10 ">
+        <div class="grid max-w-screen-xl px-10 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mb-24 ">
+            <div class="mr-auto place-self-center lg:col-span-7 ">
+                <div class="text-2xl text-accent py-5 text-center md:text-start">Full Stack Software Developer</div>
                 <h1
-                    class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-base-content z-10 flex flex-wrap">
-                    Hello! I am <span class="text-gradient ml-2">   <AnimatedText :words="['Soybean15','Marlon Padilla']"/></span>.</h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl my-10">A Software developer specializing in crafting user-friendly web
+                    class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-base-content z-10 flex flex-wrap text-center md:text-start">
+                    Hello! I am <span class="text-gradient ml-2">  <AnimatedText :words="['Soybean15','Marlon Padilla']"/></span>.</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 text-lg lg:text-xl my-10 text-center md:text-start">A Software developer specializing in crafting user-friendly web
                     applications using Vue.js, Livewire and Laravel.</p>
                
                     <Stacks/>
