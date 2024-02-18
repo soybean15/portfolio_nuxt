@@ -1,5 +1,5 @@
 <template>
-    <div class=" grid  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0  ">
+    <div class=" grid  max-w-screen-xl px-6 py-8 pb-2 mx-auto  lg:gap-8 xl:gap-0  ">
 
         <div class="flex flex-col   p-10 pt-5  pl-0  ">
 
@@ -28,6 +28,13 @@
                             src="~/assets/logo/facebook.svg" /></button></a>
             </div>
 
+
+            <div class="flex justify-center mt-10">
+
+                <div class="text-base-100 text-lg">
+                    © 2024 by Marlon Padilla All Rights Reserved
+                </div>
+            </div>
         </div>
 
 
