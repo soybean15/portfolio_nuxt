@@ -7,7 +7,7 @@
                <AnimatedText :words="['About Me','My Background']"/></h2>
 
 
-                <div class="md:hidden lg:mt-0 lg:col-span-5 bg-base-100 rounded-full overflow-hidden">
+                <div class="md:hidden lg:mt-0 lg:col-span-5 bg-base-300 rounded-full overflow-hidden">
                 <img  class="object-top object-contain hover:object-scale-down " src="~/assets/img/mob.png" alt="mockup">
             </div>
         </div>
