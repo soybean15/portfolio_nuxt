@@ -1,6 +1,6 @@
 <template>
   <div class=" flex flex-col   ">
-
+    <AnimatedText/>
     <Hero v-motion="{
       initial: initial,
       visibleOnce: visibleOnce,
@@ -10,7 +10,9 @@
     }" />
 
 
-    <div id="about" class="bg-base-200 " v-motion="{
+
+
+    <div id="about"  v-motion="{
       initial: initial,
       visible: enter,
       delay: 2000
@@ -20,6 +22,8 @@
     }">
       <AboutMe />
     </div>
+
+
 
     <div id="projects" class="py-5" >
       <Projects/>

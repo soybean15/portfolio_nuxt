@@ -5,7 +5,7 @@
 
             <h2
                 class="max-w-2xl mb-4 text-3xl font-extrabold self-center md:self-start leading-none md:text-3xl xl:text-5xl text-base-content z-10 ">
-                Projects</h2>
+                <AnimatedText :words="['My Projects','Web','Console','Desktop']"/></h2>
 
 
 
