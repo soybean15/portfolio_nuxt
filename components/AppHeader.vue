@@ -1,5 +1,5 @@
 <template>
-    <nav class=" w-full z-20 top-0 start-0 border  border-gray-200 :border-gray-600 text-content-base  fixed bg-base-100">
+    <nav class=" w-full z-20 top-0 start-0 border-b  border-gray-200 dark:border-gray-600 text-content-base  fixed bg-base-100">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <NuxtLink :to="{hash:'#me'}" class="flex items-center space-x-3 rtl:space-x-reverse">
           
