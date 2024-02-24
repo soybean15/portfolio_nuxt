@@ -13,7 +13,7 @@
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 text-lg lg:text-xl my-10 text-center md:text-start ">A Software developer specializing in crafting user-friendly web
                     applications using Vue.js, Livewire and Laravel.</p>
                 
-
+                 
                     <Stacks/>
                 
                     <!-- <a href="#"
@@ -30,8 +30,8 @@
                 
 
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex bg-base-300 rounded-full overflow-hidden floating glitch">
-                <img  class="object-top object-contain hover:object-scale-down " src="~/assets/img/mob.png" alt="mockup">
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex bg-base-300 rounded-full overflow-hidden floating ">
+                <img  class="object-top object-contain hover:object-scale-down glitch " src="~/assets/img/mob.png" alt="mockup">
               
             </div>
          

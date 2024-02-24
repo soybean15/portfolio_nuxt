@@ -20,10 +20,14 @@ const logos = [
         link: "https://javascript.com",
     },
     { name: "java.com", label: "Java", link: "https://java.com" },
-    { name: "laravel-livewire.com", label: "Livewire", link: "https://laravel-livewire.com" },
-    { name: "nuxt.com", label: "Nuxt", link: "https://nuxt.com" },
     { name: "laravel.com", label: "Laravel", link: "https://laravel.com" },
+    { name: "laravel-livewire.com", label: "Livewire", link: "https://laravel-livewire.com" },
+    { name: "alpinejs.dev", label: "Alpine.js", link: "https://alpinejs.dev" },
+   
+
     { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
+    { name: "nuxt.com", label: "Nuxt", link: "https://nuxt.com" },
+    { name: "inertiajs.com", label: "Inertia", link: "https://inertiajs.com" },
     { name: "quasar.dev", label: "Quasar", link: "https://quasar.dev" },
     {
         name: "tailwindcss.com",
@@ -32,7 +36,7 @@ const logos = [
     },
     { name: "npmjs.org", label: "Npm", link: "https://npmjs.org" },
     { name: "mysql.com", label: "MySql", link: "https://mysql.com" },
-    { name: "inertiajs.com", label: "Inertia", link: "https://inertiajs.com" },
+  
     { name: "git-scm.com", label: "Git", link: "https://git-scm.com" },
     { name: "github.com", label: "Github", link: "https://github.com" },
 ];
