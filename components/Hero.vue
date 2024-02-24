@@ -9,7 +9,7 @@
                 <!-- <AnimatedText :words="['Soybean15','Marlon Padilla']"/> -->
                 <h1
                     class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-base-content flex flex-col z-10   text-center md:text-start">
-                    Hello! I am <span class="text-gradient ml-2 ">  <AnimatedTypingText :words="['Soybean15','Marlon Padilla']"/> </span></h1>
+                    Hello! I am <span class="text-gradient ">  <AnimatedTypingText :words="['Soybean15','Marlon Padilla']"/> </span></h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 text-lg lg:text-xl my-10 text-center md:text-start ">A Software developer specializing in crafting user-friendly web
                     applications using Vue.js, Livewire and Laravel.</p>
                 
