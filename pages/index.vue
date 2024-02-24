@@ -1,4 +1,6 @@
 <template>
+
+
   <div id="me" class=" flex flex-col ">
   
     <Hero v-motion="{
@@ -8,6 +10,7 @@
 
 
     }" />
+
 
 
 
@@ -40,8 +43,10 @@
 
 <script >
 import {  ref } from 'vue';
+import AnimatedSwitchingText from '~/components/AnimatedSwitchingText.vue';
 
 export default {
+  components: { AnimatedSwitchingText },
 
   setup() {
 

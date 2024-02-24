@@ -1,13 +1,15 @@
 <template>
     <div  class=" grid md:grid-cols-2  max-w-screen-xl px-6 py-8 mx-auto lg:gap-8 xl:gap-0   ">
-
+       
         <div class="flex flex-col items-center justify-center p-10">
+           
+
             <h2
-                class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-gradient z-10 ">
-               <AnimatedText :words="['About Me','My Background']"/></h2>
+                class="floating max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-gradient z-10 ">
+              About me</h2>
+             
 
-
-                <div class="md:hidden lg:mt-0 lg:col-span-5 bg-base-300 rounded-full overflow-hidden">
+                <div class="md:hidden lg:mt-0 lg:col-span-5 bg-base-300 rounded-full overflow-hidden floating glitch">
                 <img  class="object-top object-contain hover:object-scale-down " src="~/assets/img/mob.png" alt="mockup">
             </div>
         </div>
@@ -16,6 +18,7 @@
 
       
         <div class="flex flex-col  space-y-5" > 
+           
             
             <div class="space-y-3 border-b-[1px] border-b-accent py-3 pb-5" v-for="me in myInfo" :key="me.title">
                 <div class="text-xl  md:text-2xl font-bold  text-accent">{{me.title}}</div>
@@ -27,7 +30,7 @@
 
 
             </div>
-
+            <animated-switching-text :topText="'Let\'s'" :bottomText="'together'" :items="['Work', 'Grow', 'Achieve']"/>
     
         </div>
     </div>
@@ -67,4 +70,5 @@ export default {
     @apply bg-gradient-to-b from-accent to-success;
 
 }
+
 </style>
