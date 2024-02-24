@@ -43,10 +43,9 @@
 
 <script >
 import {  ref } from 'vue';
-import AnimatedSwitchingText from '~/components/AnimatedSwitchingText.vue';
 
 export default {
-  components: { AnimatedSwitchingText },
+
 
   setup() {
 

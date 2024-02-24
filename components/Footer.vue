@@ -1,4 +1,5 @@
 <template>
+            
     <div class=" grid  max-w-screen-xl px-6 py-8 pb-2 mx-auto  lg:gap-8 xl:gap-0  ">
 
         <div class="flex flex-col   p-10 pt-5  pl-0  ">
