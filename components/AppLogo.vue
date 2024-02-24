@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-base-200 h-7 relative rounded-xl">
+  <!-- <div class="bg-base-200 h-7 relative rounded-xl">
     
       <div class="font-bold absolute top-0 text-xl px-1 overflow-hidden  rounded-xl">
         <span class="text-accent">Soybean</span>
@@ -12,6 +12,12 @@
       </div>
     
     
+    </div> -->
+
+  <div class="bebas-neue text-3xl font-bold text-accent  py-0 px-1 text-gradient  ">
+    <div>
+      Soybean15
     </div>
-    
-    </template>
+
+  </div>
+</template>
