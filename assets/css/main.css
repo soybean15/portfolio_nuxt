@@ -14,13 +14,19 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'Space-mono';
+    src: url('~/assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 .bebas-neue{
   font-family: 'Bebas-Neue';
 }
 
   body {
-    font-family: 'EncodeSans-Regular', sans-serif;
+    font-family: 'Space-mono', sans-serif;
   }
 
 .text-gradient {
