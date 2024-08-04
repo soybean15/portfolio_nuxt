@@ -5,7 +5,8 @@
 
             <div
                 class="bg-primary lg:absolute top-10 -left-10 w-full   lg:w-[50%] rounded-lg shadow-lg aspect-video md:aspect-square ">
-                <img class="object-cover  rounded-lg object-top w-full h-full " @error="$event.target.src = image"
+                <img class="object-cover  rounded-lg object-top w-full h-full "
+                 @error="$event.target.src = image"
                     :src="project.thumbnail" :placeholder="'~/assets/logo/github-mark-white.svg'" />
 
             </div>

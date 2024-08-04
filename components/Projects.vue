@@ -256,7 +256,7 @@ const projects = [
         description: "Application for Sari Sari store Management, Development still on going",
         type: "Web",
        
-        thumbnail: 'https://-user-images.githubusercontent.com/75112014/305708305-b3bff555-9722-465c-9170-55bd7382026f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgyNTM2NTQsIm5iZiI6MTcwODI1MzM1NCwicGF0aCI6Ii83NTExMjAxNC8zMDU3MDgzMDUtYjNiZmY1NTUtOTcyMi00NjVjLTkxNzAtNTViZDczODIwMjZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjE4VDEwNDkxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcxOTA0ZWRkZTQ4YTQ5OGQxM2ZmN2FlYTRhYWQyYzhkNGJkMjQ3MjUxYjJiYzFlNDhhMzY4YjgwZDdmZjUwYWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.p6BhaClkqbrKzzaqlCXNN0B62jqndk-Xcs3t6e6Us6A',
+        thumbnail: '/img/sukii.png',
    
         stacks: [
             { name: "vuejs.org", label: "Vue", link: "https://vuejs.org" },
