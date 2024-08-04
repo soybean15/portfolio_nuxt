@@ -13,7 +13,7 @@
         <div class="grid  lg:grid-cols-2 ">
 
             
-            <div class="sm:m-0.5" v-for="project in projects" :key="project.title">
+            <div class="sm:m-0.5  card floating" v-for="project in projects" :key="project.title">
 <!-- 
                 <project :project="project"  v-motion-fade-visible/> -->
 
