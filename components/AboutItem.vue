@@ -14,7 +14,7 @@
            </div>
         </div>
         <div v-else>
-            <span class=" ms-5"> {{ item }}</span>
+            <span class="text-gray-500 ms-5"> {{ item }}</span>
 
         </div>
 
