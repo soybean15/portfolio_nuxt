@@ -121,7 +121,7 @@ const myInfo = [
             {
                 "title": "SaaS Management",
                 "content": [
-                    "A platform enhancing user experience and operational efficiency for client organizations."
+                    "A platform enhancing user experience and operational efficiency for client organizations using multitenancy features."
                 ]
             },
             {
